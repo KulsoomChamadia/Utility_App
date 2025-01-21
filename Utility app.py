@@ -10,7 +10,7 @@ Vending_machine_title = """
                                                                                                 
                                                                                                 
                                            """   
-   
+  
 def display_header():   
   print(Vending_machine_title)   
    
