@@ -138,7 +138,7 @@ def dispense_item(item):
   # Print a message to dispense the item   
   print(f"*  Dispensing {item['name']}...        *")   
   print("*  Don’t forget to collect your item from the vending machine.  *")   
-  print("")   
+  print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")   
   # Simulate dispensing the item   
   print("*  Item dispensed successfully.        *")   
   print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")   
@@ -166,7 +166,7 @@ def pay(overall_cost, items):
   print(f"*  Your total is £{overall_cost:.2f}.             *")   
   print(f"*  Discount: {discount*100}% = £{discount_amount:.2f}  *")   
   print(f"*  Total with discount: £{final_amt_with_discount:.2f}  *")   
-  print("")   
+  print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")   
   # Loop until a valid payment method is chosen   
   while True:   
     # Ask the user to choose a payment method   
